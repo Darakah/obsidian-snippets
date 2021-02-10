@@ -4,19 +4,6 @@
   display: none;
 }
 
-
-
-.box-gaby {
-  height: 1000px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  word-wrap: break-word;
-  flex: 1 1 20px;
-  }
-  
-
-
 /********************* Info Table Style ***********************************/
 .info-table-style{
 	background-color:#b79200;
