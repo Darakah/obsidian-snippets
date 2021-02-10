@@ -1,7 +1,7 @@
 /* Remove image markgin - added by Obsidian Groovebox Theme */
 img
 {
-    display: block !important;
-    margin-left: none !important;
-    margin-right: none !important;
+    display: block;
+    margin-left: none;
+    margin-right: none;
 }
