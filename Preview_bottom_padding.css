@@ -1,0 +1,8 @@
+.markdown-preview-view, .markdown-preview-sizer .markdown-preview-section{
+	padding-bottom: 50px  !important;
+	min-height: 10px  !important;
+}
+
+.markdown-preview-section{
+	padding-bottom: 1px !important;
+}

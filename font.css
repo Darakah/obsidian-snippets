@@ -1,0 +1,5 @@
+body {
+  --default-font: "Comic Sans MS";
+  --editor-font-weight: "bold" !important;
+  --preview-font-weight: "bold" !important;
+}

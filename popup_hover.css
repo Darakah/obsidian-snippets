@@ -1,0 +1,13 @@
+/* -------------- bigger link popup preview -------------- */
+.popover.hover-popover {
+    transform:  scale(0.9);
+    max-height: 700px;
+    min-height: 300px;
+    width:    800px;
+    overflow:   auto;
+    padding:  1rem;
+}
+
+.popover.hover-popover .markdown-embed {
+  height:   100%;
+}

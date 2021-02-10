@@ -1,0 +1,122 @@
+/********************* Creating Note Connections **************************/
+/* Used to hide content yet still be parsed by Obsidian -- Creating Links*/
+.hide-span {
+  display: none;
+}
+
+
+
+.box-gaby {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  flex: 1 1 20px;
+  }
+  
+
+
+/********************* Info Table Style ***********************************/
+.info-table-style{
+	background-color:#b79200;
+	color: #993300; 
+	font-weight: bold;
+}
+
+.skill-table-primary-style{
+	background-color: #870d0d;
+	color: #cccccc; 
+}
+
+.skill-table-secondary-style{
+	background-color: #a74808;
+	color: #cccccc; 
+}
+
+.skill-table-derived-style{
+	background-color: #cc7810;
+	color: #cccccc; 
+}
+
+.skill-table-racial-style{
+	background-color: #691a1a;
+	color: #cccccc; 
+}
+
+
+.pill-view-style{
+	background-color: #3b3b3b; 
+		 border: none;
+		 padding: 1px 8px;
+		 text-decoration: none; display: inline-block;
+			   margin: 0px 0px; cursor: pointer; border-radius: 14px;
+			   float:right; padding-left: 8px;
+}
+
+
+.grid-view-style{
+	background-color: #3b3b3b; border: none; 
+		  color: white; font-size: 13px; padding: 0px 0px; text-decoration: none; 
+		  display: inline-block; margin: 0px 0px; cursor: pointer; border-radius: 14px;
+}
+
+.grid-view-hover{
+	--text-a: #cccccc; 
+	--text-a-hover: white;
+}
+
+/*Grid View */
+.cute-card-band{
+  --text-a: #cccccc !important;
+  --text-a-hover: white !important;
+  grid-auto-rows: min-content !important;
+}
+
+.cute-card-view{
+  grid-auto-rows: min-content !important;
+  color: #d1c077 !important;
+  padding: 5px !important;
+}
+
+
+
+
+.test-tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.test-tooltip .test-tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.test-tooltip .test-tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.test-tooltip:hover .test-tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
