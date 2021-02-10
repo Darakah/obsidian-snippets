@@ -1,0 +1,5 @@
+.cm-header-1, .markdown-embed-content .markdown-preview-view .markdown-preview-section h1 {
+    font-weight: 500px;
+    font-size: 10px;
+    color: red;
+}
